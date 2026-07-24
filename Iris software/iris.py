@@ -7,7 +7,7 @@ from RealtimeSTT import AudioToTextRecorder
 import assist
 #seting up the recorder with the model and language
 if __name__ == "__main__":
-    recorder = AudioToTextRecorder(spinner=False, model="tiny.en", language="en", post_speech_silence_duration=0.1)
+    recorder = AudioToTextRecorder(spinner=False, model="tiny.en", language="en", post_speech_silence_duration=0.5)
     # set the hot words to listen for
     hot_words = ["iris", "hey iris", "wake up", "chop chop"]
     skip_hot_word_check = False
