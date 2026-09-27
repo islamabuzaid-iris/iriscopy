@@ -7,8 +7,8 @@ import os
 client = OpenAI(api_key="", default_headers={"OpenAI-Beta": "assistants=v2"})
 mixer.init()
 
-assistant_id = "asst_CwAItpxAtskaRAFNu0LZHD9y"
-thread_id = "thread_pH3K8JlUOzHd8kCXj4fEoUy2"
+assistant_id = ""
+thread_id = ""
 
 # Retrieve the assistant and thread
 assistant = client.beta.assistants.retrieve(assistant_id)
